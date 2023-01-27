@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_order_dashboards",
+  "info": {
+    "singularName": "admin-order-dashboard",
+    "pluralName": "admin-order-dashboards",
+    "displayName": "AdminOrderDashboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OrderId": {
+      "type": "string"
+    },
+    "OrderId_Email": {
+      "type": "email"
+    },
+    "OrderId_ContactNumber": {
+      "type": "biginteger"
+    },
+    "Coupon_Discount": {
+      "type": "decimal"
+    },
+    "Total_Amount": {
+      "type": "biginteger",
+      "min": "0"
+    },
+    "Payment_Method": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "PickUp": {
+      "type": "boolean"
+    },
+    "Order_Date": {
+      "type": "datetime"
+    },
+    "Courier_Agency": {
+      "type": "string"
+    },
+    "Tracking_Id": {
+      "type": "biginteger"
+    },
+    "Url_Courier_Service": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Pincode": {
+      "type": "integer"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "User_Id": {
+      "type": "biginteger"
+    },
+    "Delivery_Date": {
+      "type": "datetime"
+    },
+    "order_detail": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::order-detail.order-detail"
+    }
+  }
+}

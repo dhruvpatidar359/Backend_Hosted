@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_wishlist_wishlistpart2s",
+  "info": {
+    "displayName": "wishlist",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product_id_json": {
+      "type": "json"
+    }
+  }
+}

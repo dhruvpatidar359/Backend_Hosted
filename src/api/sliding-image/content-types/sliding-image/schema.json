@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sliding_images",
+  "info": {
+    "singularName": "sliding-image",
+    "pluralName": "sliding-images",
+    "displayName": "Sliding_Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

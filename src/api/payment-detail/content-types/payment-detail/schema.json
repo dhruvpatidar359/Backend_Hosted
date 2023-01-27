@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_details",
+  "info": {
+    "singularName": "payment-detail",
+    "pluralName": "payment-details",
+    "displayName": "Payment_Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Amount": {
+      "type": "biginteger"
+    },
+    "Provider": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "boolean"
+    }
+  }
+}

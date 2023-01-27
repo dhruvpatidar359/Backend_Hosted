@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variants",
+  "info": {
+    "singularName": "variant",
+    "pluralName": "variants",
+    "displayName": "Variant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "SKU": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 8
+    },
+    "Price": {
+      "type": "biginteger"
+    },
+    "Quantity": {
+      "type": "biginteger",
+      "min": "0"
+    },
+    "isStock": {
+      "type": "boolean"
+    }
+  }
+}

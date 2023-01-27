@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "singularName": "coupon",
+    "pluralName": "coupons",
+    "displayName": "Coupon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Coupon_Name_Code": {
+      "type": "string"
+    },
+    "Validity_Date": {
+      "type": "datetime"
+    },
+    "Discount_Percent": {
+      "type": "decimal"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Active": {
+      "type": "boolean"
+    }
+  }
+}

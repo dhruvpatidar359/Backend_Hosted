@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_payments",
+  "info": {
+    "singularName": "user-payment",
+    "pluralName": "user-payments",
+    "displayName": "User_Payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Payment_Type": {
+      "type": "string"
+    },
+    "Provider": {
+      "type": "string"
+    },
+    "Acc_No": {
+      "type": "biginteger"
+    },
+    "Expiry": {
+      "type": "datetime"
+    }
+  }
+}
