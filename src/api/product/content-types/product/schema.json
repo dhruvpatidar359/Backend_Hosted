@@ -25,20 +25,6 @@
       "relation": "oneToOne",
       "target": "api::sub-category1.sub-category1"
     },
-    "Images_Videos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "Description": {
-      "type": "richtext"
-    },
     "IsStock": {
       "type": "boolean"
     },

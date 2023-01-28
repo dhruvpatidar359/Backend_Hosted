@@ -46,6 +46,16 @@
     },
     "Url_Courier_Service": {
       "type": "string"
+    },
+    "Invoice": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
