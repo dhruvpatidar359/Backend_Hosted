@@ -53,7 +53,8 @@
       "type": "text"
     },
     "Pincode": {
-      "type": "integer"
+      "type": "integer",
+      "max": 10
     },
     "City": {
       "type": "string"

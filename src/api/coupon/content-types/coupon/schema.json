@@ -19,7 +19,9 @@
       "type": "datetime"
     },
     "Discount_Percent": {
-      "type": "decimal"
+      "type": "decimal",
+      "max": 100,
+      "min": 0
     },
     "Description": {
       "type": "richtext"

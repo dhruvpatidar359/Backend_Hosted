@@ -94,7 +94,9 @@
       "target": "api::cart.cart"
     },
     "Contact": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "max": "12",
+      "min": "4"
     },
     "wishlist": {
       "type": "component",

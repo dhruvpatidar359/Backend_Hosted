@@ -21,11 +21,13 @@
       "maxLength": 8
     },
     "Price": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
     },
     "Quantity": {
       "type": "biginteger",
-      "min": "0"
+      "min": "0",
+      "default": "0"
     },
     "isStock": {
       "type": "boolean"

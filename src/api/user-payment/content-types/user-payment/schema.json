@@ -4,7 +4,8 @@
   "info": {
     "singularName": "user-payment",
     "pluralName": "user-payments",
-    "displayName": "User_Payment"
+    "displayName": "User_Payment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,8 @@
       "type": "string"
     },
     "Acc_No": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "max": "34"
     },
     "Expiry": {
       "type": "datetime"

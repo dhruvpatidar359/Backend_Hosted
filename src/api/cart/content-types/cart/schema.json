@@ -17,7 +17,8 @@
     },
     "Quantity": {
       "type": "biginteger",
-      "min": "0"
+      "min": "0",
+      "default": "0"
     }
   }
 }

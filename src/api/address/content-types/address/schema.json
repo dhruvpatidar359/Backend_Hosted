@@ -28,7 +28,8 @@
       "type": "string"
     },
     "Telephone": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 15
     },
     "Mobile": {
       "type": "string"
