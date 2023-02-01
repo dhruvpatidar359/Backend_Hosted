@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "default": "NULL"
     },
     "category": {
       "type": "relation",
@@ -34,7 +35,8 @@
       "target": "api::variant.variant"
     },
     "Gst": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     }
   }
 }

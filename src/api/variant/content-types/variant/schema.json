@@ -16,9 +16,7 @@
       "type": "string"
     },
     "SKU": {
-      "type": "string",
-      "minLength": 8,
-      "maxLength": 8
+      "type": "string"
     },
     "Price": {
       "type": "biginteger",
